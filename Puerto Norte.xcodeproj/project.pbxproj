@@ -14,6 +14,7 @@
 		8229C4E420A193E4002A25E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8229C4E220A193E4002A25E0 /* LaunchScreen.storyboard */; };
 		8229C4E720A193E4002A25E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8229C4E620A193E4002A25E0 /* main.m */; };
 		8229C4EF20A19654002A25E0 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8229C4EE20A19654002A25E0 /* SafariServices.framework */; };
+		825DB0C620A19FA700D88671 /* rosa1024x1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0C520A19FA700D88671 /* rosa1024x1024.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8229C4E520A193E4002A25E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8229C4E620A193E4002A25E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8229C4EE20A19654002A25E0 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		825DB0C520A19FA700D88671 /* rosa1024x1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosa1024x1024.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		8229C4D620A193E4002A25E0 /* Puerto Norte */ = {
 			isa = PBXGroup;
 			children = (
+				825DB0C320A19FA700D88671 /* Resources */,
 				8229C4D720A193E4002A25E0 /* AppDelegate.h */,
 				8229C4D820A193E4002A25E0 /* AppDelegate.m */,
 				8229C4DA20A193E4002A25E0 /* ViewController.h */,
@@ -81,6 +84,22 @@
 				8229C4EE20A19654002A25E0 /* SafariServices.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		825DB0C320A19FA700D88671 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				825DB0C420A19FA700D88671 /* AppIcon */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		825DB0C420A19FA700D88671 /* AppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				825DB0C520A19FA700D88671 /* rosa1024x1024.jpg */,
+			);
+			path = AppIcon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +163,7 @@
 				8229C4E420A193E4002A25E0 /* LaunchScreen.storyboard in Resources */,
 				8229C4E120A193E4002A25E0 /* Assets.xcassets in Resources */,
 				8229C4DF20A193E4002A25E0 /* Main.storyboard in Resources */,
+				825DB0C620A19FA700D88671 /* rosa1024x1024.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
