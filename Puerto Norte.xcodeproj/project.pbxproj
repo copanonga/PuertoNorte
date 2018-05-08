@@ -26,6 +26,12 @@
 		825DB0DC20A1AC8A00D88671 /* rosa76.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0D020A1AC8A00D88671 /* rosa76.jpg */; };
 		825DB0DD20A1AC8A00D88671 /* rosa87.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0D120A1AC8A00D88671 /* rosa87.jpg */; };
 		825DB0DE20A1AC8A00D88671 /* rosa80.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0D220A1AC8A00D88671 /* rosa80.jpg */; };
+		825DB0E620A1F27600D88671 /* puertonorte001XOriginal.png in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0E020A1F27600D88671 /* puertonorte001XOriginal.png */; };
+		825DB0E720A1F27600D88671 /* puertonorte002XOriginal.png in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0E120A1F27600D88671 /* puertonorte002XOriginal.png */; };
+		825DB0E820A1F27600D88671 /* puertonorteclub001.png in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0E220A1F27600D88671 /* puertonorteclub001.png */; };
+		825DB0E920A1F27600D88671 /* puertonorteclub001Original.png in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0E320A1F27600D88671 /* puertonorteclub001Original.png */; };
+		825DB0EA20A1F27600D88671 /* puertonorteclub002.png in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0E420A1F27600D88671 /* puertonorteclub002.png */; };
+		825DB0EB20A1F27600D88671 /* puertonorteclub002Original.png in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0E520A1F27600D88671 /* puertonorteclub002Original.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +58,12 @@
 		825DB0D020A1AC8A00D88671 /* rosa76.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosa76.jpg; sourceTree = "<group>"; };
 		825DB0D120A1AC8A00D88671 /* rosa87.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosa87.jpg; sourceTree = "<group>"; };
 		825DB0D220A1AC8A00D88671 /* rosa80.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosa80.jpg; sourceTree = "<group>"; };
+		825DB0E020A1F27600D88671 /* puertonorte001XOriginal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puertonorte001XOriginal.png; sourceTree = "<group>"; };
+		825DB0E120A1F27600D88671 /* puertonorte002XOriginal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puertonorte002XOriginal.png; sourceTree = "<group>"; };
+		825DB0E220A1F27600D88671 /* puertonorteclub001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puertonorteclub001.png; sourceTree = "<group>"; };
+		825DB0E320A1F27600D88671 /* puertonorteclub001Original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puertonorteclub001Original.png; sourceTree = "<group>"; };
+		825DB0E420A1F27600D88671 /* puertonorteclub002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puertonorteclub002.png; sourceTree = "<group>"; };
+		825DB0E520A1F27600D88671 /* puertonorteclub002Original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puertonorteclub002Original.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +98,7 @@
 		8229C4D620A193E4002A25E0 /* Puerto Norte */ = {
 			isa = PBXGroup;
 			children = (
+				825DB0DF20A1F27600D88671 /* Capturas */,
 				825DB0C320A19FA700D88671 /* Resources */,
 				8229C4D720A193E4002A25E0 /* AppDelegate.h */,
 				8229C4D820A193E4002A25E0 /* AppDelegate.m */,
@@ -134,6 +147,19 @@
 			);
 			path = AppIcon;
 			sourceTree = "<group>";
+		};
+		825DB0DF20A1F27600D88671 /* Capturas */ = {
+			isa = PBXGroup;
+			children = (
+				825DB0E020A1F27600D88671 /* puertonorte001XOriginal.png */,
+				825DB0E120A1F27600D88671 /* puertonorte002XOriginal.png */,
+				825DB0E220A1F27600D88671 /* puertonorteclub001.png */,
+				825DB0E320A1F27600D88671 /* puertonorteclub001Original.png */,
+				825DB0E420A1F27600D88671 /* puertonorteclub002.png */,
+				825DB0E520A1F27600D88671 /* puertonorteclub002Original.png */,
+			);
+			path = Capturas;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -194,13 +220,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				825DB0DE20A1AC8A00D88671 /* rosa80.jpg in Resources */,
+				825DB0E820A1F27600D88671 /* puertonorteclub001.png in Resources */,
+				825DB0EB20A1F27600D88671 /* puertonorteclub002Original.png in Resources */,
+				825DB0E720A1F27600D88671 /* puertonorte002XOriginal.png in Resources */,
 				825DB0D920A1AC8A00D88671 /* rosa40.jpg in Resources */,
 				825DB0D420A1AC8A00D88671 /* rosa29.jpg in Resources */,
+				825DB0E920A1F27600D88671 /* puertonorteclub001Original.png in Resources */,
+				825DB0E620A1F27600D88671 /* puertonorte001XOriginal.png in Resources */,
 				8229C4E120A193E4002A25E0 /* Assets.xcassets in Resources */,
 				825DB0DA20A1AC8A00D88671 /* rosa20.jpg in Resources */,
 				825DB0DB20A1AC8A00D88671 /* rosa60.jpg in Resources */,
 				825DB0D320A1AC8A00D88671 /* rosa167.jpg in Resources */,
 				825DB0DC20A1AC8A00D88671 /* rosa76.jpg in Resources */,
+				825DB0EA20A1F27600D88671 /* puertonorteclub002.png in Resources */,
 				8229C4DF20A193E4002A25E0 /* Main.storyboard in Resources */,
 				825DB0D820A1AC8A00D88671 /* rosa120.jpg in Resources */,
 				825DB0D620A1AC8A00D88671 /* rosa58.jpg in Resources */,
