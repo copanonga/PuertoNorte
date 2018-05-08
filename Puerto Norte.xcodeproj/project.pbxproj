@@ -11,7 +11,6 @@
 		8229C4DC20A193E4002A25E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8229C4DB20A193E4002A25E0 /* ViewController.m */; };
 		8229C4DF20A193E4002A25E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8229C4DD20A193E4002A25E0 /* Main.storyboard */; };
 		8229C4E120A193E4002A25E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8229C4E020A193E4002A25E0 /* Assets.xcassets */; };
-		8229C4E420A193E4002A25E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8229C4E220A193E4002A25E0 /* LaunchScreen.storyboard */; };
 		8229C4E720A193E4002A25E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8229C4E620A193E4002A25E0 /* main.m */; };
 		8229C4EF20A19654002A25E0 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8229C4EE20A19654002A25E0 /* SafariServices.framework */; };
 		825DB0C620A19FA700D88671 /* rosa1024x1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0C520A19FA700D88671 /* rosa1024x1024.jpg */; };
@@ -25,7 +24,6 @@
 		8229C4DB20A193E4002A25E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8229C4DE20A193E4002A25E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8229C4E020A193E4002A25E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8229C4E320A193E4002A25E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8229C4E520A193E4002A25E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8229C4E620A193E4002A25E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8229C4EE20A19654002A25E0 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
@@ -71,7 +69,6 @@
 				8229C4DB20A193E4002A25E0 /* ViewController.m */,
 				8229C4DD20A193E4002A25E0 /* Main.storyboard */,
 				8229C4E020A193E4002A25E0 /* Assets.xcassets */,
-				8229C4E220A193E4002A25E0 /* LaunchScreen.storyboard */,
 				8229C4E520A193E4002A25E0 /* Info.plist */,
 				8229C4E620A193E4002A25E0 /* main.m */,
 			);
@@ -160,7 +157,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8229C4E420A193E4002A25E0 /* LaunchScreen.storyboard in Resources */,
 				8229C4E120A193E4002A25E0 /* Assets.xcassets in Resources */,
 				8229C4DF20A193E4002A25E0 /* Main.storyboard in Resources */,
 				825DB0C620A19FA700D88671 /* rosa1024x1024.jpg in Resources */,
@@ -189,14 +185,6 @@
 				8229C4DE20A193E4002A25E0 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8229C4E220A193E4002A25E0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8229C4E320A193E4002A25E0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
