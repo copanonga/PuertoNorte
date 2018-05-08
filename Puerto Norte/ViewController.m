@@ -25,10 +25,10 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     
-    if (primeraEntrada == TRUE) {
+    /*if (primeraEntrada == TRUE) {
         primeraEntrada = FALSE;
         [self verWeb];
-    }
+    }*/
     
 }
 

@@ -37,7 +37,7 @@
                                             <action selector="botonVerWeb:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g3t-c1-mXh"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oaf-Ok-BWb">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rosa1024x1024.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oaf-Ok-BWb">
                                         <rect key="frame" x="62" y="71" width="250" height="250"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -54,4 +54,7 @@
             <point key="canvasLocation" x="136.80000000000001" y="97.601199400299862"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="rosa1024x1024.jpg" width="1024" height="1024"/>
+    </resources>
 </document>
