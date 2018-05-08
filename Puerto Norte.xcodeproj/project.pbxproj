@@ -14,6 +14,18 @@
 		8229C4E720A193E4002A25E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8229C4E620A193E4002A25E0 /* main.m */; };
 		8229C4EF20A19654002A25E0 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8229C4EE20A19654002A25E0 /* SafariServices.framework */; };
 		825DB0C620A19FA700D88671 /* rosa1024x1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0C520A19FA700D88671 /* rosa1024x1024.jpg */; };
+		825DB0D320A1AC8A00D88671 /* rosa167.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0C720A1AC8800D88671 /* rosa167.jpg */; };
+		825DB0D420A1AC8A00D88671 /* rosa29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0C820A1AC8800D88671 /* rosa29.jpg */; };
+		825DB0D520A1AC8A00D88671 /* rosa180.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0C920A1AC8900D88671 /* rosa180.jpg */; };
+		825DB0D620A1AC8A00D88671 /* rosa58.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0CA20A1AC8900D88671 /* rosa58.jpg */; };
+		825DB0D720A1AC8A00D88671 /* rosa152.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0CB20A1AC8900D88671 /* rosa152.jpg */; };
+		825DB0D820A1AC8A00D88671 /* rosa120.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0CC20A1AC8900D88671 /* rosa120.jpg */; };
+		825DB0D920A1AC8A00D88671 /* rosa40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0CD20A1AC8900D88671 /* rosa40.jpg */; };
+		825DB0DA20A1AC8A00D88671 /* rosa20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0CE20A1AC8900D88671 /* rosa20.jpg */; };
+		825DB0DB20A1AC8A00D88671 /* rosa60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0CF20A1AC8A00D88671 /* rosa60.jpg */; };
+		825DB0DC20A1AC8A00D88671 /* rosa76.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0D020A1AC8A00D88671 /* rosa76.jpg */; };
+		825DB0DD20A1AC8A00D88671 /* rosa87.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0D120A1AC8A00D88671 /* rosa87.jpg */; };
+		825DB0DE20A1AC8A00D88671 /* rosa80.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DB0D220A1AC8A00D88671 /* rosa80.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +40,18 @@
 		8229C4E620A193E4002A25E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8229C4EE20A19654002A25E0 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		825DB0C520A19FA700D88671 /* rosa1024x1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosa1024x1024.jpg; sourceTree = "<group>"; };
+		825DB0C720A1AC8800D88671 /* rosa167.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosa167.jpg; sourceTree = "<group>"; };
+		825DB0C820A1AC8800D88671 /* rosa29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosa29.jpg; sourceTree = "<group>"; };
+		825DB0C920A1AC8900D88671 /* rosa180.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosa180.jpg; sourceTree = "<group>"; };
+		825DB0CA20A1AC8900D88671 /* rosa58.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosa58.jpg; sourceTree = "<group>"; };
+		825DB0CB20A1AC8900D88671 /* rosa152.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosa152.jpg; sourceTree = "<group>"; };
+		825DB0CC20A1AC8900D88671 /* rosa120.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosa120.jpg; sourceTree = "<group>"; };
+		825DB0CD20A1AC8900D88671 /* rosa40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosa40.jpg; sourceTree = "<group>"; };
+		825DB0CE20A1AC8900D88671 /* rosa20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosa20.jpg; sourceTree = "<group>"; };
+		825DB0CF20A1AC8A00D88671 /* rosa60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosa60.jpg; sourceTree = "<group>"; };
+		825DB0D020A1AC8A00D88671 /* rosa76.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosa76.jpg; sourceTree = "<group>"; };
+		825DB0D120A1AC8A00D88671 /* rosa87.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosa87.jpg; sourceTree = "<group>"; };
+		825DB0D220A1AC8A00D88671 /* rosa80.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosa80.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +118,18 @@
 		825DB0C420A19FA700D88671 /* AppIcon */ = {
 			isa = PBXGroup;
 			children = (
+				825DB0CE20A1AC8900D88671 /* rosa20.jpg */,
+				825DB0C820A1AC8800D88671 /* rosa29.jpg */,
+				825DB0CD20A1AC8900D88671 /* rosa40.jpg */,
+				825DB0CA20A1AC8900D88671 /* rosa58.jpg */,
+				825DB0CF20A1AC8A00D88671 /* rosa60.jpg */,
+				825DB0D020A1AC8A00D88671 /* rosa76.jpg */,
+				825DB0D220A1AC8A00D88671 /* rosa80.jpg */,
+				825DB0D120A1AC8A00D88671 /* rosa87.jpg */,
+				825DB0CC20A1AC8900D88671 /* rosa120.jpg */,
+				825DB0CB20A1AC8900D88671 /* rosa152.jpg */,
+				825DB0C720A1AC8800D88671 /* rosa167.jpg */,
+				825DB0C920A1AC8900D88671 /* rosa180.jpg */,
 				825DB0C520A19FA700D88671 /* rosa1024x1024.jpg */,
 			);
 			path = AppIcon;
@@ -157,9 +193,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				825DB0DE20A1AC8A00D88671 /* rosa80.jpg in Resources */,
+				825DB0D920A1AC8A00D88671 /* rosa40.jpg in Resources */,
+				825DB0D420A1AC8A00D88671 /* rosa29.jpg in Resources */,
 				8229C4E120A193E4002A25E0 /* Assets.xcassets in Resources */,
+				825DB0DA20A1AC8A00D88671 /* rosa20.jpg in Resources */,
+				825DB0DB20A1AC8A00D88671 /* rosa60.jpg in Resources */,
+				825DB0D320A1AC8A00D88671 /* rosa167.jpg in Resources */,
+				825DB0DC20A1AC8A00D88671 /* rosa76.jpg in Resources */,
 				8229C4DF20A193E4002A25E0 /* Main.storyboard in Resources */,
+				825DB0D820A1AC8A00D88671 /* rosa120.jpg in Resources */,
+				825DB0D620A1AC8A00D88671 /* rosa58.jpg in Resources */,
+				825DB0D520A1AC8A00D88671 /* rosa180.jpg in Resources */,
+				825DB0DD20A1AC8A00D88671 /* rosa87.jpg in Resources */,
 				825DB0C620A19FA700D88671 /* rosa1024x1024.jpg in Resources */,
+				825DB0D720A1AC8A00D88671 /* rosa152.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -287,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -304,7 +352,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.copanonga.Puerto-Norte";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,7 +366,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.copanonga.Puerto-Norte";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
