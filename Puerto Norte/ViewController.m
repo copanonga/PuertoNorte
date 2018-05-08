@@ -8,22 +8,61 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController () <SFSafariViewControllerDelegate> {
+    BOOL primeraEntrada;
+}
 
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
+    NSLog(@"\nViewController");
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    primeraEntrada = TRUE;
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    
+    if (primeraEntrada == TRUE) {
+        primeraEntrada = FALSE;
+        [self verWeb];
+    }
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - SafariViewController
+
+- (void)safariViewControllerDidFinish:(SFSafariViewController *)controller {
+    
+    [self dismissViewControllerAnimated:true completion:nil];
+    
+}
+
+#pragma mark - Datos
+
+-(void)verWeb {
+    
+    NSString *urlString = @"http://puertonorte.es/";
+    NSURL *url = [NSURL URLWithString:urlString];
+    
+    SFSafariViewController *svc = [[SFSafariViewController alloc] initWithURL:url];
+    svc.delegate = self;
+    [self presentViewController:svc animated:NO completion:nil];
+    
+}
+
+#pragma mark - Botón
+
+- (IBAction)botonVerWeb:(id)sender {
+    
+    [self verWeb];
+    
+}
 
 @end
